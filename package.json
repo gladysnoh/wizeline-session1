@@ -1,0 +1,21 @@
+{
+  "name": "session1",
+  "version": "1.0.0",
+  "description": "Gladys' Assessment Session 1",
+  "main": "index.js",
+  "scripts": {
+    "test-login-cases": "testcafe chrome ./page_model/tests/LoginTest.js",
+    "test-shopping-cases": "testcafe chrome ./page_model/tests/ShoppingCartTest.js",
+    "test-checkout-cases": "testcafe chrome ./page_model/tests/CheckoutTest.js",
+    "test-overview-cases": "testcafe chrome ./page_model/tests/OverviewTest.js"
+  },
+  "keywords": [
+    "Gladys",
+    "Session1"
+  ],
+  "author": "Gladys Noh",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
