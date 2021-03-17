@@ -17,7 +17,8 @@ test('2.- a) Login with a locked out user', async (t) =>{
     //Expected
     await t.expect(loginPage.errorMessage.innerText).contains('locked out', 'The provided user is not locked out');
 });
-test.only('2.- b) Login with invalid credentials(wrong user)', async (t) => {
+
+test('2.- b) Login with invalid credentials(wrong user)', async (t) => {
     await loginPage.doLogin(CREDENTIALS.INVALID_USERNAME, CREDENTIALS.PASSWORD);
     await t.expect(loginPage.errorMessage.innerText).contains('do not match');
 });

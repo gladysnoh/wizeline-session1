@@ -6,7 +6,7 @@ import finishPage from '../pages/FinishPage';
 import {CHECKOUTINFORMATION} from '../data/Constants';
 import { standardUser } from '../data/Roles';
 
-fixture('Checkout tests')
+fixture('Overview tests')
 .beforeEach(async(t)=>{
     await t.useRole(standardUser);
     // For all checkout test we are gonna add a single item and then go to the shopping cart
@@ -21,7 +21,7 @@ fixture('Checkout tests')
     await t.click(checkOutPage.continueBtn);
 });
 
-test.only('10.- Complete a purchase', async(t)=>{
+test('10.- Complete a purchase', async(t)=>{
     await t.click(overViewPage.finishBtn);
     await t.expect(finishPage.thanksMessage.innerText).eql('THANK YOU FOR YOUR ORDER');
 });
