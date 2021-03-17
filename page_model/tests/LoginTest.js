@@ -1,6 +1,5 @@
 import loginPage from '../pages/LoginPage';
 import productListPage from '../pages/ProductListPage';
-import navBarCmp from '../components/NavBarCmp';
 import {CREDENTIALS} from '../data/Constants';
 
 fixture('Login tests')

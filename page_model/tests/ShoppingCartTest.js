@@ -6,7 +6,7 @@ import {standardUser} from '../data/Roles';
 fixture('ShoppingCart tests')
     .beforeEach(async(t)=>{
         await t.useRole(standardUser);
-    })
+    });
   
 
 test('4.- Navigate to the ShoppingCart ', async (t) => {

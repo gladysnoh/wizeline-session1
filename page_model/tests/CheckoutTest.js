@@ -1,10 +1,8 @@
-import loginPage from '../pages/LoginPage'
 import shoppingCartPage from '../pages/ShoppingCartPage';
 import productListPage from '../pages/ProductListPage';
 import checkOutPage from '../pages/CheckoutPage';
 import overViewPage from '../pages/OverviewPage';
-
-import {CREDENTIALS,CHECKOUTINFORMATION} from '../data/Constants';
+import {CHECKOUTINFORMATION} from '../data/Constants';
 import { standardUser } from '../data/Roles';
 
 fixture('Checkout tests')
