@@ -7,7 +7,8 @@
     "test-login-cases": "testcafe chrome ./page_model/tests/LoginTest.js",
     "test-shopping-cases": "testcafe chrome ./page_model/tests/ShoppingCartTest.js",
     "test-checkout-cases": "testcafe chrome ./page_model/tests/CheckoutTest.js",
-    "test-overview-cases": "testcafe chrome ./page_model/tests/OverviewTest.js"
+    "test-overview-cases": "testcafe chrome ./page_model/tests/OverviewTest.js",
+    "test-all-cases": "testcafe chrome ./page_model/tests"
   },
   "keywords": [
     "Gladys",
