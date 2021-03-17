@@ -1,0 +1,9 @@
+{
+    "browsers": ["chrome", "firefox"],
+    "src": [
+        "./page_model/tests/LoginTest.js",
+        "./page_model/tests/ShoppingCartTest.js",
+        "./page_model/tests/CheckoutTest.js",
+        "./page_model/tests/OverviewTest.js"
+    ]
+}
